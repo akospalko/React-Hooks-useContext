@@ -13,12 +13,12 @@ const [welcome, setWelcome] = useState("Hello");
       {/*<span> useContext with a functional component: </span>
        <FunctionContextComponent_1 welcome={welcome}/> */}
 
-      {/* <h1> using context with a functional component 2: </h1>
+      {/* <h1> using context with a functional component 2: separate context for state value and click handler </h1>
       <ThemeProvider>
         <FunctionContextComponent_2/>
       </ThemeProvider> */}
 
-      <h1> using context with a functional component 3: </h1>
+      <h1> using context with a functional componen 3 : only one context is used for both the state and the click handler </h1>
       <ThemeContext>
         <Component/>
       </ThemeContext>
